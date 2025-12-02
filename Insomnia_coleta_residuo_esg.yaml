@@ -1,0 +1,164 @@
+type: collection.insomnia.rest/5.0
+name: My Collection
+meta:
+  id: wrk_2df0e015748f460f92b578e6f2fa33f3
+  created: 1746492083474
+  modified: 1746492083474
+collection:
+  - url: http://localhost:8080/coletas/
+    name: Buscar por ID
+    meta:
+      id: req_48af7b78e7e6483a915f19bc8bfd222d
+      created: 1746492121831
+      modified: 1747095999140
+      isPrivate: false
+      sortKey: -1746492121832
+    method: GET
+    body:
+      mimeType: application/json
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.0.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/coletas
+    name: Listar todos
+    meta:
+      id: req_97c793bb1e2c4aada3a68a97ab200525
+      created: 1747095596824
+      modified: 1747095825926
+      isPrivate: false
+      sortKey: -1747095596824
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/coletas/registrarcoleta
+    name: Registrar coleta
+    meta:
+      id: req_7338d611f1c64fb38d99eedde7e2522d
+      created: 1747095612082
+      modified: 1747095936048
+      isPrivate: false
+      sortKey: -1747095612082
+    method: POST
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/auth/login
+    name: Login
+    meta:
+      id: req_396d921dba9f4169992f4e27d91e0254
+      created: 1747095624409
+      modified: 1747095901305
+      isPrivate: false
+      sortKey: -1747095624409
+    method: POST
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/auth/register
+    name: Registar Usuario
+    meta:
+      id: req_9cabd7062e0c4946962611551a6328a0
+      created: 1747095632939
+      modified: 1747096318373
+      isPrivate: false
+      sortKey: -1747095632939
+    method: POST
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/coletas/atualizarcoleta
+    name: Atualizar Coleta
+    meta:
+      id: req_004e03ae9f1c412d9944520482c56606
+      created: 1747095650156
+      modified: 1747095956724
+      isPrivate: false
+      sortKey: -1747095650156
+    method: PUT
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/coletas/
+    name: Excluir coleta por ID
+    meta:
+      id: req_f6531705e6824133b93b49f7aa31aecf
+      created: 1747095663223
+      modified: 1747095973823
+      isPrivate: false
+      sortKey: -1747095663223
+    method: DELETE
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_511ff6c9016efba4abd0cad5d30fd90d8ec84314
+    created: 1746492083483
+    modified: 1746492083483
+environments:
+  name: Base Environment
+  meta:
+    id: env_511ff6c9016efba4abd0cad5d30fd90d8ec84314
+    created: 1746492083477
+    modified: 1746492083477
+    isPrivate: false
